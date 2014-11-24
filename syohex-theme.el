@@ -159,7 +159,7 @@
  '(magit-branch ((t (:foreground "yellow" :weight bold :underline t))))
  '(magit-item-highlight ((t (:background "gray3" :weight normal))))
 
- '(helm-source-header ((t (:weight 'emi-bold :family nil :height 1.0))))
+ '(helm-source-header ((t (:weight semi-bold :family nil :height 1.0))))
  '(helm-ff-file ((t (:foreground "white" :background nil))))
  '(helm-ff-directory ((t (:foreground "cyan" :background nil :underline t))))
  '(helm-grep-lineno ((t (:foreground "IndianRed1"))))
