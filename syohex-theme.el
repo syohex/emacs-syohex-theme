@@ -142,7 +142,7 @@
  '(org-block ((t (:foreground "green"))))
  '(org-tag ((t (:foreground "GreenYellow"))))
  '(org-checkbox ((t (:foreground "LawnGreen" :weight bold))))
- '(org-warning ((t (:foreground "hotpink"))))
+ '(org-warning ((t (:foreground "hotpink" :weight bold))))
  '(org-level-1 ((t (:foreground "hotpink" :weight bold))))
  '(org-level-2 ((t (:foreground "yellow" :weight semi-bold))))
  '(org-level-4 ((t (:foreground "grey80"))))
