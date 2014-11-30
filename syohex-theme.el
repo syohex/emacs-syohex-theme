@@ -149,7 +149,7 @@
 
  '(compilation-error ((t (:underline nil))))
  '(compilation-line-number ((t (:underline t))))
- '(eshell-prompt ((t (:foreground "yellow"))))
+ '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
 
  '(eldoc-highlight-function-argument ((t (:foreground "green" :underline t :weight bold))))
 
