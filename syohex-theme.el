@@ -136,8 +136,7 @@
  '(cperl-array-face ((t (:background nil :weight normal))))
  '(cperl-hash-face ((t (:foreground "DarkOliveGreen3" :background nil :weight normal))))
 
- '(show-paren-match ((t (:background nil :foreground nil
-                         :underline "#ffff00" :weight extra-bold))))
+ '(show-paren-match ((t (:foreground nil :underline "#ffff00" :weight extra-bold))))
 
  '(org-block ((t (:foreground "green"))))
  '(org-tag ((t (:foreground "GreenYellow"))))
