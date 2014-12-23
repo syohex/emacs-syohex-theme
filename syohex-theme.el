@@ -164,6 +164,13 @@
  '(helm-grep-lineno ((t (:foreground "IndianRed1"))))
  '(helm-moccur-buffer ((t (:foreground "aquamarine1" :underline nil))))
 
+ '(dired-subtree-depth-1-face ((t (:background "black"))))
+ '(dired-subtree-depth-2-face ((t (:background "black"))))
+ '(dired-subtree-depth-3-face ((t (:background "black"))))
+ '(dired-subtree-depth-4-face ((t (:background "black"))))
+ '(dired-subtree-depth-5-face ((t (:background "black"))))
+ '(dired-subtree-depth-6-face ((t (:background "black"))))
+
  '(jedi:highlight-function-argument ((t (:foreground "green")))))
 
 ;;;###autoload
