@@ -145,6 +145,7 @@
  '(org-level-1 ((t (:foreground "hotpink" :weight bold))))
  '(org-level-2 ((t (:foreground "yellow" :weight semi-bold))))
  '(org-level-4 ((t (:foreground "grey80"))))
+ '(org-mode-line-clock ((t :foregound "#cccccd" :weight semi-bold)))
 
  '(compilation-error ((t (:underline nil))))
  '(compilation-line-number ((t (:underline t))))
