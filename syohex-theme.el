@@ -1,6 +1,6 @@
 ;;; syohex-theme.el --- Syohex Emacs theme
 
-;; Copyright (C) 2014 by Syohei YOSHIDA
+;; Copyright (C) 2015 by Syohei YOSHIDA
 
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-syohex-theme
@@ -50,7 +50,7 @@
  '(font-lock-type-face ((t (:foreground "PaleGreen"))))
  '(font-lock-variable-name-face ((t (:foreground "LightGoldenrod"))))
  '(font-lock-warning-face ((t (:weight bold :foreground "Pink"))))
- '(minibuffer-prompt ((t (:foreground "cyan"))))
+ '(minibuffer-prompt ((t (:foreground "LawnGreen"))))
 
  '(completions-annotations ((t (:underline t))))
  '(completions-common-part ((t (:foreground "white" :background "black"))))
