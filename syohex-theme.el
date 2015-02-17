@@ -50,7 +50,7 @@
  '(font-lock-type-face ((t (:foreground "PaleGreen"))))
  '(font-lock-variable-name-face ((t (:foreground "LightGoldenrod"))))
  '(font-lock-warning-face ((t (:weight bold :foreground "Pink"))))
- '(minibuffer-prompt ((t (:foreground "LawnGreen"))))
+ '(minibuffer-prompt ((t (:foreground "cyan"))))
 
  '(completions-annotations ((t (:underline t))))
  '(completions-common-part ((t (:foreground "white" :background "black"))))
