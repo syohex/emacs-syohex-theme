@@ -44,8 +44,8 @@
  '(font-lock-keyword-face ((t (:foreground "Cyan1"))))
  '(font-lock-negation-char-face ((t (nil))))
  '(font-lock-preprocessor-face ((t (:foreground "LightSteelBlue"))))
- '(font-lock-regexp-grouping-backslash ((t (:weight bold))))
- '(font-lock-regexp-grouping-construct ((t (:weight bold))))
+ '(font-lock-regexp-grouping-backslash ((t (:foreground "#ff1493":weight bold))))
+ '(font-lock-regexp-grouping-construct ((t (:foreground "#ff8c00" :weight bold))))
  '(font-lock-string-face ((t (:foreground "LightSalmon"))))
  '(font-lock-type-face ((t (:foreground "PaleGreen"))))
  '(font-lock-variable-name-face ((t (:foreground "LightGoldenrod"))))
@@ -155,6 +155,9 @@
 
  '(ace-jump-face-foreground ((t (:foreground "yellow" :weight bold))))
  '(anzu-mode-line ((t (:foreground "yellow" :weight bold))))
+
+ '(git-gutter:deleted ((t (:background "red"))))
+ '(git-gutter:modified ((t (:background "magenta"))))
 
  '(magit-branch ((t (:foreground "yellow" :weight bold :underline t))))
  '(magit-item-highlight ((t (:background "gray3" :weight normal))))
