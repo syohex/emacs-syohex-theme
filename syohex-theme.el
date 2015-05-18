@@ -159,6 +159,7 @@
  '(git-gutter:deleted ((t (:background "red"))))
  '(git-gutter:modified ((t (:background "magenta"))))
 
+ '(magit-hash ((t (:foreground "white" :weight bold))))
  '(magit-branch ((t (:foreground "yellow" :weight bold :underline t))))
  '(magit-item-highlight ((t (:background "gray3" :weight normal))))
 
