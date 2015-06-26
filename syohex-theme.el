@@ -176,6 +176,12 @@
  '(dired-subtree-depth-5-face ((t (:background "black"))))
  '(dired-subtree-depth-6-face ((t (:background "black"))))
 
+ '(company-tooltip ((t (:foreground "black" :background "lightgrey"))))
+ '(company-tooltip-common ((t (:foreground "black" :background "lightgrey"))))
+ '(company-tooltip-common-selection ((t (:foreground "white" :background "steelblue"))))
+ '(company-tooltip-selection ((t (:foreground "black" :background "steelblue"))))
+ '(company-preview-common ((t :background nil :foreground "lightgrey" :underline t)))
+
  '(jedi:highlight-function-argument ((t (:foreground "green")))))
 
 ;;;###autoload
