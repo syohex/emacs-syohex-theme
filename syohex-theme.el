@@ -181,6 +181,8 @@
  '(company-tooltip-common-selection ((t (:foreground "white" :background "steelblue"))))
  '(company-tooltip-selection ((t (:foreground "black" :background "steelblue"))))
  '(company-preview-common ((t :background nil :foreground "lightgrey" :underline t)))
+ '(company-scrollbar-fg ((t :background "orange")))
+ '(company-scrollbar-bg ((t :background "gray40")))
 
  '(jedi:highlight-function-argument ((t (:foreground "green")))))
 
