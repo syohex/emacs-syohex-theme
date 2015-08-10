@@ -176,6 +176,8 @@
  '(dired-subtree-depth-5-face ((t (:background "black"))))
  '(dired-subtree-depth-6-face ((t (:background "black"))))
 
+ '(popup-scroll-bar-foreground-face ((t (:background "DarkOrange"))))
+
  '(company-tooltip ((t (:foreground "black" :background "lightgrey"))))
  '(company-tooltip-common ((t (:foreground "black" :background "lightgrey"))))
  '(company-tooltip-common-selection ((t (:foreground "white" :background "steelblue"))))
