@@ -152,8 +152,6 @@
  '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
 
  '(eldoc-highlight-function-argument ((t (:foreground "green" :underline t :weight bold))))
-
- '(ace-jump-face-foreground ((t (:foreground "yellow" :weight bold))))
  '(anzu-mode-line ((t (:foreground "yellow" :weight bold))))
 
  '(git-gutter:deleted ((t (:background "red"))))
@@ -162,6 +160,8 @@
  '(magit-hash ((t (:foreground "white" :weight bold))))
  '(magit-branch ((t (:foreground "yellow" :weight bold :underline t))))
  '(magit-item-highlight ((t (:background "gray3" :weight normal))))
+
+ '(git-rebase-hash ((t (:foreground "yellow"))))
 
  '(helm-source-header ((t (:background "RoyalBlue4" :weight semi-bold :family nil :height 1.0))))
  '(helm-ff-file ((t (:foreground "white" :background nil))))
@@ -178,13 +178,16 @@
 
  '(popup-scroll-bar-foreground-face ((t (:background "DarkOrange"))))
 
- '(company-tooltip ((t (:foreground "black" :background "lightgrey"))))
- '(company-tooltip-common ((t (:foreground "black" :background "lightgrey"))))
- '(company-tooltip-common-selection ((t (:foreground "white" :background "steelblue"))))
- '(company-tooltip-selection ((t (:foreground "black" :background "steelblue"))))
- '(company-preview-common ((t :background nil :foreground "lightgrey" :underline t)))
- '(company-scrollbar-fg ((t :background "orange")))
- '(company-scrollbar-bg ((t :background "gray40")))
+ ;;'(company-tooltip ((t (:foreground "black" :background "lightgrey"))))
+ ;;'(company-tooltip-common ((t (:foreground "black" :background "lightgrey"))))
+ ;;'(company-tooltip-common-selection ((t (:foreground "white" :background "steelblue"))))
+ ;;'(company-tooltip-selection ((t (:foreground "black" :background "steelblue"))))
+ ;;'(company-preview-common ((t :background nil :foreground "lightgrey" :underline t)))
+ ;;'(company-scrollbar-fg ((t :background "orange")))
+ ;;'(company-scrollbar-bg ((t :background "gray40")))
+
+ '(flyspell-duplicate ((t (:foreground "white" :background "orange" :box t :underline nil))))
+ '(flyspell-incorrect ((t (:foreground "white" :background "red" :box t :underline nil))))
 
  '(jedi:highlight-function-argument ((t (:foreground "green")))))
 
