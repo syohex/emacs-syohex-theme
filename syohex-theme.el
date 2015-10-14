@@ -179,8 +179,8 @@
  ;;'(company-scrollbar-fg ((t :background "orange")))
  ;;'(company-scrollbar-bg ((t :background "gray40")))
 
- '(flyspell-duplicate ((t (:foreground "white" :background "orange" :box t :underline nil))))
- '(flyspell-incorrect ((t (:foreground "white" :background "red" :box t :underline nil))))
+ '(flyspell-duplicate ((t (:foreground "white" :background "orange" :underline nil weight bold))))
+ '(flyspell-incorrect ((t (:foreground "white" :background "red" :underline nil :weight bold))))
 
  '(jedi:highlight-function-argument ((t (:foreground "green")))))
 
