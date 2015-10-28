@@ -171,13 +171,13 @@
 
  '(popup-scroll-bar-foreground-face ((t (:background "DarkOrange"))))
 
- ;;'(company-tooltip ((t (:foreground "black" :background "lightgrey"))))
- ;;'(company-tooltip-common ((t (:foreground "black" :background "lightgrey"))))
- ;;'(company-tooltip-common-selection ((t (:foreground "white" :background "steelblue"))))
- ;;'(company-tooltip-selection ((t (:foreground "black" :background "steelblue"))))
- ;;'(company-preview-common ((t :background nil :foreground "lightgrey" :underline t)))
- ;;'(company-scrollbar-fg ((t :background "orange")))
- ;;'(company-scrollbar-bg ((t :background "gray40")))
+ '(company-tooltip ((t (:foreground "black" :background "lightgrey"))))
+ '(company-tooltip-common ((t (:foreground "black" :background "lightgrey"))))
+ '(company-tooltip-common-selection ((t (:foreground "white" :background "steelblue"))))
+ '(company-tooltip-selection ((t (:foreground "black" :background "steelblue"))))
+ '(company-preview-common ((t (:background nil :foreground "lightgrey" :underline t))))
+ '(company-scrollbar-fg ((t (:background "orange"))))
+ '(company-scrollbar-bg ((t (:background "gray40"))))
 
  '(flyspell-duplicate ((t (:foreground "white" :background "orange" :underline nil weight bold))))
  '(flyspell-incorrect ((t (:foreground "white" :background "red" :underline nil :weight bold))))
