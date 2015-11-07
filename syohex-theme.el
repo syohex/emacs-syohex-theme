@@ -33,7 +33,7 @@
  'syohex
  '(button ((t (:underline t :foreground "cyan1"))))
  '(default ((t (:background "black" :foreground "white"))))
- '(cursor ((t (:foreground "white"))))
+ '(cursor ((t (:foreground "white" :background "chartreuse2"))))
  '(region ((t (:background "blue3"))))
  '(font-lock-builtin-face ((t (:foreground "LightSteelBlue"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "chocolate1"))))
