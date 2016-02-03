@@ -149,6 +149,9 @@
 
  '(compilation-error ((t (:underline nil))))
  '(compilation-line-number ((t (:underline t))))
+ '(compilation-mode-line-exit ((t (:foreground "SpringGreen1" :weight semi-bold))))
+ '(compilation-mode-line-fail ((t (:foreground "IndianRed1" :weight semi-bold))))
+
  '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
 
  '(eldoc-highlight-function-argument ((t (:foreground "green" :underline t :weight bold))))
