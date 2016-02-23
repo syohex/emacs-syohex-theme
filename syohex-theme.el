@@ -181,6 +181,8 @@
  '(company-preview-common ((t (:background nil :foreground "lightgrey" :underline t))))
  '(company-scrollbar-fg ((t (:background "orange"))))
  '(company-scrollbar-bg ((t (:background "gray40"))))
+ '(company-template-field ((t (:background nil :foreground "yellow"))))
+ '(company-tooltip-annotation ((t (:background nil :foreground "dimgray"))))
 
  '(flyspell-duplicate ((t (:foreground "white" :background "orange" :underline nil weight bold))))
  '(flyspell-incorrect ((t (:foreground "white" :background "red" :underline nil :weight bold))))
