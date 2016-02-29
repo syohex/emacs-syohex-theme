@@ -133,7 +133,7 @@
  '(helm-gtags-file ((t (:foreground "aquamarine1"))))
  '(helm-gtags-lineno ((t (:foreground "IndianRed1" :underline nil))))
 
- '(cperl-array-face ((t (:background nil :weight normal))))
+ '(cperl-array-face ((t (:background nil :foreground "yellow" :weight normal))))
  '(cperl-hash-face ((t (:foreground "DarkOliveGreen3" :background nil :weight normal))))
 
  '(show-paren-match ((t (:foreground nil :underline "#ffff00" :weight extra-bold))))
