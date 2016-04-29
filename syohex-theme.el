@@ -146,6 +146,7 @@
  '(org-level-2 ((t (:foreground "yellow" :weight semi-bold))))
  '(org-level-4 ((t (:foreground "grey80"))))
  '(org-mode-line-clock ((t :foregound "#cccccd" :weight semi-bold)))
+ '(org-priority ((t :foreground "green" :weight normal)))
 
  '(compilation-error ((t (:underline nil))))
  '(compilation-line-number ((t (:underline t))))
