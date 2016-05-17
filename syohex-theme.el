@@ -188,7 +188,10 @@
  '(flyspell-duplicate ((t (:foreground "white" :background "orange" :underline nil weight bold))))
  '(flyspell-incorrect ((t (:foreground "white" :background "red" :underline nil :weight bold))))
 
- '(jedi:highlight-function-argument ((t (:foreground "green")))))
+ '(jedi:highlight-function-argument ((t (:foreground "green"))))
+
+ '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
+ '(vc-locally-added-state ((t :foreground "GreenYellow" :weight bold))))
 
 ;;;###autoload
 (when load-file-name
