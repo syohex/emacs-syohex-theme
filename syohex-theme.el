@@ -126,7 +126,7 @@
  '(diff-file-header ((t (:background nil :weight extra-bold))))
  '(diff-refine-added ((t (:background nil :underline "green"))))
  '(diff-refine-removed ((t (:background nil :underline "red"))))
- '(diff-refine-change ((t (:background nil))))
+ '(diff-refine-changed ((t (:background nil))))
  '(diff-header ((t (:background nil :weight extra-bold))))
  '(diff-hunk-header ((t (:foreground "turquoise" :weight extra-bold :underline t))))
 
