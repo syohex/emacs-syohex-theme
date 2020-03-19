@@ -1,8 +1,8 @@
 ;;; syohex-theme.el --- Syohex Emacs theme
 
-;; Copyright (C) 2017 by Syohei YOSHIDA
+;; Copyright (C) 2020 by Shohei YOSHIDA
 
-;; Author: Syohei YOSHIDA <syohex@gmail.com>
+;; Author: Shohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-syohex-theme
 ;; Version: 0.01
 
@@ -159,12 +159,8 @@
  '(eldoc-highlight-function-argument ((t (:foreground "green" :underline t :weight bold))))
  '(anzu-mode-line ((t (:foreground "yellow" :weight bold))))
 
- '(git-gutter:deleted ((t (:background "red"))))
- '(git-gutter:modified ((t (:background "magenta"))))
-
- '(magit-hash ((t (:foreground "white" :weight bold))))
- '(magit-branch ((t (:foreground "yellow" :weight bold :underline t))))
- '(magit-item-highlight ((t (:background "gray3" :weight normal))))
+ '(git-gutter2-deleted ((t (:background "red"))))
+ '(git-gutter2-modified ((t (:background "magenta"))))
 
  '(git-rebase-hash ((t (:foreground "yellow"))))
 
@@ -188,8 +184,6 @@
 
  '(flyspell-duplicate ((t (:foreground "white" :background "orange" :underline nil weight bold))))
  '(flyspell-incorrect ((t (:foreground "white" :background "red" :underline nil :weight bold))))
-
- '(jedi:highlight-function-argument ((t (:foreground "green"))))
 
  '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
  '(vc-locally-added-state ((t :foreground "GreenYellow" :weight bold))))
