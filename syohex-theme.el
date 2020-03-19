@@ -157,7 +157,7 @@
  '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
 
  '(eldoc-highlight-function-argument ((t (:foreground "green" :underline t :weight bold))))
- '(anzu-mode-line ((t (:foreground "yellow" :weight bold))))
+ '(anzu2-mode-line ((t (:foreground "yellow" :weight bold))))
 
  '(git-gutter2-deleted ((t (:background "red"))))
  '(git-gutter2-modified ((t (:background "magenta"))))
