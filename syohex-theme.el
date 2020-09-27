@@ -167,6 +167,7 @@
  '(helm-source-header ((t (:background "RoyalBlue4" :weight semi-bold :family nil :height 1.0))))
  '(helm-ff-file ((t (:foreground "white" :background nil))))
  '(helm-ff-directory ((t (:foreground "cyan" :background nil :underline t))))
+ '(helm-grep-file ((t (:foreground "aquamarine1" :underline nil))))
  '(helm-grep-lineno ((t (:foreground "IndianRed1"))))
  '(helm-moccur-buffer ((t (:foreground "aquamarine1" :underline nil))))
 
