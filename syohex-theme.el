@@ -1,4 +1,4 @@
-;;; syohex-theme.el --- Syohex Emacs theme
+;;; syohex-theme.el --- Syohex Emacs theme -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2020 by Shohei YOSHIDA
 
