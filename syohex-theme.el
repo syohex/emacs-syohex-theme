@@ -70,7 +70,7 @@
  '(fringe ((t (:background "grey10"))))
  '(glyphless-char ((t (:height 0.6))))
  '(header-line ((t (:box (:line-width -1 :style released-button)
-                         :background "grey20" :foreground "grey90" :box nil))))
+                         :background "grey20" :foreground "grey90" :box unspecified))))
  '(help-argument-name ((t (nil))))
  '(highlight ((t (:background "darkolivegreen"))))
  '(isearch ((t (:background "palevioletred2" :foreground "brown4"))))
@@ -88,7 +88,7 @@
  '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
                                               :style released-button)))))
  '(mode-line-inactive ((t (:background "grey30" :foreground "grey80"
-                                       :box (:line-width -1 :color "grey40" :style nil)
+                                       :box (:line-width -1 :color "grey40" :style unspecified)
                                        :weight light))))
 
  '(mouse ((t (nil))))
@@ -117,26 +117,26 @@
 
  '(flycheck-info ((t (:underline (:style wave :color "green")))))
  '(flycheck-error ((t (:foreground "yellow" :background "red" :weight bold))))
- '(flycheck-warning ((t (:foreground nil :background nil :underline "darkorange"
+ '(flycheck-warning ((t (:foreground unspecified :background unspecified :underline "darkorange"
                                      :weight bold))))
  '(flycheck-error-list-highlight ((t (:background "grey15"))))
 
- '(diff-added ((t (:background nil :foreground "green" :weight normal))))
- '(diff-removed ((t (:background nil :foreground "firebrick1" :weight normal))))
- '(diff-file-header ((t (:background nil :weight extra-bold))))
- '(diff-refine-added ((t (:background nil :underline "green"))))
- '(diff-refine-removed ((t (:background nil :underline "red"))))
- '(diff-refine-changed ((t (:background nil))))
- '(diff-header ((t (:background nil :weight extra-bold))))
+ '(diff-added ((t (:background unspecified :foreground "green" :weight normal))))
+ '(diff-removed ((t (:background unspecified :foreground "firebrick1" :weight normal))))
+ '(diff-file-header ((t (:background unspecified :weight extra-bold))))
+ '(diff-refine-added ((t (:background unspecified :underline "green"))))
+ '(diff-refine-removed ((t (:background unspecified :underline "red"))))
+ '(diff-refine-changed ((t (:background unspecified))))
+ '(diff-header ((t (:background unspecified :weight extra-bold))))
  '(diff-hunk-header ((t (:foreground "turquoise" :weight extra-bold :underline t))))
 
  '(helm-gtags-file ((t (:foreground "aquamarine1"))))
- '(helm-gtags-lineno ((t (:foreground "IndianRed1" :underline nil))))
+ '(helm-gtags-lineno ((t (:foreground "IndianRed1" :underline unspecified))))
 
- '(cperl-array-face ((t (:background nil :foreground "yellow" :weight normal))))
- '(cperl-hash-face ((t (:foreground "DarkOliveGreen3" :background nil :weight normal))))
+ '(cperl-array-face ((t (:background unspecified :foreground "yellow" :weight normal))))
+ '(cperl-hash-face ((t (:foreground "DarkOliveGreen3" :background unspecified :weight normal))))
 
- '(show-paren-match ((t (:foreground nil :underline "#ffff00" :weight extra-bold))))
+ '(show-paren-match ((t (:foreground unspecified :underline "#ffff00" :weight extra-bold))))
 
  '(org-block ((t (:foreground "green"))))
  '(org-tag ((t (:foreground "GreenYellow"))))
@@ -149,7 +149,7 @@
  '(org-mode-line-clock ((t :foreground "#cccccd" :weight semi-bold)))
  '(org-priority ((t :foreground "orange" :weight normal)))
 
- '(compilation-error ((t (:underline nil))))
+ '(compilation-error ((t (:underline unspecified))))
  '(compilation-line-number ((t (:underline t))))
  '(compilation-mode-line-exit ((t (:foreground "SpringGreen1" :weight semi-bold))))
  '(compilation-mode-line-fail ((t (:foreground "IndianRed1" :weight semi-bold))))
@@ -164,12 +164,12 @@
 
  '(git-rebase-hash ((t (:foreground "yellow"))))
 
- '(helm-source-header ((t (:background "RoyalBlue4" :weight semi-bold :family nil :height 1.0))))
- '(helm-ff-file ((t (:foreground "white" :background nil))))
- '(helm-ff-directory ((t (:foreground "cyan" :background nil :underline t))))
- '(helm-grep-file ((t (:foreground "aquamarine1" :underline nil))))
+ '(helm-source-header ((t (:background "RoyalBlue4" :weight semi-bold :family unspecified :height 1.0))))
+ '(helm-ff-file ((t (:foreground "white" :background unspecified))))
+ '(helm-ff-directory ((t (:foreground "cyan" :background unspecified :underline t))))
+ '(helm-grep-file ((t (:foreground "aquamarine1" :underline unspecified))))
  '(helm-grep-lineno ((t (:foreground "IndianRed1"))))
- '(helm-moccur-buffer ((t (:foreground "aquamarine1" :underline nil))))
+ '(helm-moccur-buffer ((t (:foreground "aquamarine1" :underline unspecified))))
 
  '(popup-scroll-bar-foreground-face ((t (:background "DarkOrange"))))
 
@@ -177,14 +177,14 @@
  '(company-tooltip-common ((t (:foreground "black" :background "lightgrey"))))
  '(company-tooltip-common-selection ((t (:foreground "white" :background "steelblue"))))
  '(company-tooltip-selection ((t (:foreground "black" :background "steelblue"))))
- '(company-preview-common ((t (:background nil :foreground "lightgrey" :underline t))))
+ '(company-preview-common ((t (:background unspecified :foreground "lightgrey" :underline t))))
  '(company-scrollbar-fg ((t (:background "orange"))))
  '(company-scrollbar-bg ((t (:background "gray40"))))
- '(company-template-field ((t (:background nil :foreground "yellow"))))
- '(company-tooltip-annotation ((t (:background nil :foreground "dimgray"))))
+ '(company-template-field ((t (:background unspecified :foreground "yellow"))))
+ '(company-tooltip-annotation ((t (:background unspecified :foreground "dimgray"))))
 
- '(flyspell-duplicate ((t (:foreground "white" :background "orange" :underline nil weight bold))))
- '(flyspell-incorrect ((t (:foreground "white" :background "red" :underline nil :weight bold))))
+ '(flyspell-duplicate ((t (:foreground "white" :background "orange" :underline unspecified weight bold))))
+ '(flyspell-incorrect ((t (:foreground "white" :background "red" :underline unspecified :weight bold))))
 
  '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
  '(vc-locally-added-state ((t :foreground "GreenYellow" :weight bold))))
