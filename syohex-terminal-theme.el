@@ -101,7 +101,7 @@
  '(flymake-warning ((t (:foreground "color-228" :underline t))))
 
  ;; compile
- '(compilation-info  ((t (:foreground "color-46" :weight 'bold))))
+ '(compilation-info  ((t (:foreground "color-46" :weight bold))))
  '(compilation-mode-line-exit ((t (:foreground "color-46"))))
 
  ;; diff-mode
