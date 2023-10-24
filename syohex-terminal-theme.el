@@ -46,7 +46,7 @@
  '(completions-common-part ((t (:foreground "color-190"))))
  '(region ((t (:foreground "color-240" :background "color-159"))))
  '(mode-line ((t (:foreground "color-248" :background "color-238"))))
- '(mode-line-inactive ((t (:foreground "color-254" :background "color-247"))))
+ '(mode-line-inactive ((t (:foreground "color-239" :background "color-247"))))
  '(mode-line-buffer-id ((t (:weight extra-bold))))
  '(which-func ((t (:foreground  "color-201" :weight extra-bold))))
  '(font-lock-regexp-grouping-backslash ((t (:foreground "color-199"))))
@@ -99,6 +99,10 @@
  ;; flymake
  '(flymake-error ((t (:foreground "color-199" :underline t))))
  '(flymake-warning ((t (:foreground "color-228" :underline t))))
+
+ ;; compile
+ '(compilation-info  ((t (:foreground "color-46" :weight 'bold))))
+ '(compilation-mode-line-exit ((t (:foreground "color-46"))))
 
  ;; diff-mode
  '(diff-added ((t (:background unspecified :foreground "green" :weight normal))))
