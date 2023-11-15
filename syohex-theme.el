@@ -136,6 +136,8 @@
  '(cperl-array-face ((t (:background unspecified :foreground "yellow" :weight normal))))
  '(cperl-hash-face ((t (:foreground "DarkOliveGreen3" :background unspecified :weight normal))))
 
+ '(rust-string-interpolation ((t (:foreground "SkyBlue1"))))
+
  '(show-paren-match ((t (:foreground unspecified :underline "#ffff00" :weight extra-bold))))
 
  '(org-block ((t (:foreground "green"))))
