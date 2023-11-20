@@ -100,6 +100,10 @@
  '(flymake-error ((t (:foreground "color-199" :underline t))))
  '(flymake-warning ((t (:foreground "color-228" :underline t))))
 
+ ;; flyspell
+ '(flyspell-duplicate ((t (:foreground "color-226" :underline t weight bold))))
+ '(flyspell-incorrect ((t (:foreground "color-197" :underline t :weight bold))))
+
  ;; compile
  '(compilation-info  ((t (:foreground "color-46" :weight bold))))
  '(compilation-mode-line-exit ((t (:foreground "color-46"))))
