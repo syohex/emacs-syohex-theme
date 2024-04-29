@@ -88,7 +88,7 @@
  '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
                                               :style released-button)))))
  '(mode-line-inactive ((t (:background "grey30" :foreground "grey80"
-                                       :box (:line-width -1 :color "grey40" :style unspecified)
+                                       :box (:line-width -1 :style released-button)
                                        :weight light))))
 
  '(mouse ((t (nil))))
