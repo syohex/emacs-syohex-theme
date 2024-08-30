@@ -116,7 +116,8 @@
  '(diff-refine-added ((t (:background unspecified :underline t))))
  '(diff-refine-removed ((t (:background unspecified :underline t))))
  '(diff-refine-changed ((t (:background unspecified))))
- '(diff-hunk-header ((t (:foreground  "color-208" :weight extra-bold :underline t)))))
+ '(diff-hunk-header ((t (:foreground  "color-208" :weight extra-bold :underline t))))
+ '(diff-indicator-removed ((t (:background unspecified :foreground "brightred" :weight normal)))))
 
 (provide-theme 'syohex-terminal)
 

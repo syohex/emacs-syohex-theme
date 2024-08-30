@@ -129,6 +129,7 @@
  '(diff-refine-changed ((t (:background unspecified))))
  '(diff-header ((t (:background unspecified :weight extra-bold))))
  '(diff-hunk-header ((t (:foreground "turquoise" :weight extra-bold :underline t))))
+ '(diff-indicator-removed ((t (:background unspecified :foreground "firebrick1" :weight normal))))
 
  '(helm-gtags-file ((t (:foreground "aquamarine1"))))
  '(helm-gtags-lineno ((t (:foreground "IndianRed1" :underline unspecified))))
