@@ -55,7 +55,7 @@
  '(show-paren-match ((t (:foreground unspecified :background unspecified :underline t :weight bold))))
 
  '(anzu2-mode-line ((t (:foreground "color-226" :weight extra-bold))))
- '(editutil-clean-space ((t :foreground "purple")))
+ '(editutil-clean-space ((t :foreground "brightblue")))
  '(editutil-vc-branch ((t :foreground "color-202" :weight extra-bold)))
  '(mozc-cand-echo-area-candidate-face ((t (:foreground "color-184"))))
 
