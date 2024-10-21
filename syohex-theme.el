@@ -138,6 +138,7 @@
  '(cperl-hash-face ((t (:foreground "DarkOliveGreen3" :background unspecified :weight normal))))
 
  '(rust-string-interpolation ((t (:foreground "SkyBlue1"))))
+ '(tuareg-font-lock-governing-face ((t (:foreground "cyan"))))
 
  '(show-paren-match ((t (:foreground unspecified :underline "#ffff00" :weight extra-bold))))
 

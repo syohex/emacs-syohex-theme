@@ -60,6 +60,7 @@
  '(mozc-cand-echo-area-candidate-face ((t (:foreground "color-184"))))
 
  '(rust-string-interpolation ((t (:foreground "color-81" :slant unspecified))))
+ '(tuareg-font-lock-governing-face ((t (:foreground "cyan"))))
  '(markdown-line-break-face ((t (:underline unspecified))))
 
  ;; eglot
