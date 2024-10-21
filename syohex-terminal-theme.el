@@ -61,6 +61,7 @@
 
  '(rust-string-interpolation ((t (:foreground "color-81" :slant unspecified))))
  '(tuareg-font-lock-governing-face ((t (:foreground "cyan"))))
+ '(tuareg-font-lock-interactive-output-face ((t (:foreground "yellow"))))
  '(markdown-line-break-face ((t (:underline unspecified))))
 
  ;; eglot
