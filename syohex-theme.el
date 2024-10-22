@@ -140,6 +140,7 @@
  '(rust-string-interpolation ((t (:foreground "SkyBlue1"))))
  '(tuareg-font-lock-governing-face ((t (:foreground "cyan"))))
  '(tuareg-font-lock-interactive-output-face ((t (:foreground "yellow"))))
+ '(tuareg-font-lock-constructor-face ((t (:foreground "gold1" :weight bold))))
 
  '(show-paren-match ((t (:foreground unspecified :underline "#ffff00" :weight extra-bold))))
 
