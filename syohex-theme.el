@@ -141,6 +141,7 @@
  '(tuareg-font-lock-governing-face ((t (:foreground "cyan"))))
  '(tuareg-font-lock-interactive-output-face ((t (:foreground "yellow"))))
  '(tuareg-font-lock-constructor-face ((t (:foreground "gold1" :weight bold))))
+ '(tuareg-font-lock-operator-face ((t (:foreground "color-219"))))
 
  '(show-paren-match ((t (:foreground unspecified :underline "#ffff00" :weight extra-bold))))
 
@@ -176,6 +177,7 @@
  '(helm-grep-file ((t (:foreground "aquamarine1" :underline unspecified))))
  '(helm-grep-lineno ((t (:foreground "IndianRed1"))))
  '(helm-moccur-buffer ((t (:foreground "aquamarine1" :underline unspecified))))
+ '(helm-descbinds-binding ((t (:foreground "white"))))
 
  '(popup-scroll-bar-foreground-face ((t (:background "DarkOrange"))))
 

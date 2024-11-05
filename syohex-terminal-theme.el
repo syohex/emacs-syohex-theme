@@ -63,6 +63,7 @@
  '(tuareg-font-lock-governing-face ((t (:foreground "cyan"))))
  '(tuareg-font-lock-interactive-output-face ((t (:foreground "yellow"))))
  '(tuareg-font-lock-constructor-face ((t (:foreground "color-220" :weight bold))))
+ '(tuareg-font-lock-operator-face ((t (:foreground "color-219"))))
  '(markdown-line-break-face ((t (:underline unspecified))))
 
  ;; eglot
@@ -73,6 +74,7 @@
  '(helm-match ((t (:foreground "color-198"))))
  '(helm-grep-file ((t (:foreground "color-120" :underline unspecified))))
  '(helm-selection ((t (:foreground "black" :background "color-204"))))
+ '(helm-descbinds-binding ((t (:foreground "white"))))
 
  ;; company
  '(company-tooltip ((t (:foreground "color-231" :background "color-240"))))
