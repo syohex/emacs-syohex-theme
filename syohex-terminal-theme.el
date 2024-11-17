@@ -46,9 +46,9 @@
  '(completions-common-part ((t (:foreground "color-190"))))
  '(region ((t (:foreground "color-240" :background "color-159"))))
  '(mode-line ((t (:foreground "color-248" :background "color-238"))))
- '(mode-line-inactive ((t (:foreground "color-239" :background "color-247"))))
+ '(mode-line-inactive ((t (:foreground "color-235" :background "color-242"))))
  '(mode-line-buffer-id ((t (:weight extra-bold))))
- '(which-func ((t (:foreground  "color-201" :weight extra-bold))))
+ '(which-func ((t (:foreground  "color-147" :weight bold))))
  '(font-lock-regexp-grouping-backslash ((t (:foreground "color-199"))))
  '(font-lock-regexp-grouping-construct ((t (:foreground "color-190"))))
  '(eldoc-highlight-function-argument ((t (:foreground "color-82" :weight extra-bold))))
@@ -104,6 +104,8 @@
  ;; flymake
  '(flymake-error ((t (:foreground "color-199" :underline t))))
  '(flymake-warning ((t (:foreground "color-228" :underline t))))
+ '(flymake-error-echo ((t (:foreground "brightred"))))
+ '(flymake-warning-echo ((t (:foreground "brightyellow"))))
 
  ;; flyspell
  '(flyspell-duplicate ((t (:foreground "color-226" :underline t weight bold))))
