@@ -87,10 +87,6 @@
  '(company-tooltip-scrollbar-thumb ((t (:background "color-253"))))
  '(company-tooltip-scrollbar-track ((t (:background "color-240"))))
 
- ;; git-gutter
- '(git-gutter2-deleted ((t (:foreground unspecified :background "brightred"))))
- '(git-gutter2-modified ((t (:foreground unspecified :background "brightmagenta"))))
-
  ;; css
  '(css-selector ((t (:foreground "color-123"))))
  '(css-property ((t (:foreground "color-41"))))
