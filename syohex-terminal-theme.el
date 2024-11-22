@@ -91,10 +91,6 @@
  '(git-gutter2-deleted ((t (:foreground unspecified :background "brightred"))))
  '(git-gutter2-modified ((t (:foreground unspecified :background "brightmagenta"))))
 
- ;; org
- '(org-formula ((t (:foreground "color-163"))))
- '(org-table ((t (:foreground "color-33"))))
-
  ;; css
  '(css-selector ((t (:foreground "color-123"))))
  '(css-property ((t (:foreground "color-41"))))
@@ -110,6 +106,8 @@
  '(flyspell-incorrect ((t (:foreground "color-197" :underline t :weight bold))))
 
  ;; compile
+ '(compilation-error ((t (:foreground "brightred"))))
+ '(compilation-warning ((t (:foreground "brightyellow"))))
  '(compilation-info  ((t (:foreground "color-46" :weight bold))))
  '(compilation-mode-line-exit ((t (:foreground "color-46"))))
 
