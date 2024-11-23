@@ -102,8 +102,8 @@
  '(flyspell-incorrect ((t (:foreground "color-197" :underline t :weight bold))))
 
  ;; compile
- '(compilation-error ((t (:foreground "brightred"))))
- '(compilation-warning ((t (:foreground "brightyellow"))))
+ '(compilation-error ((t (:foreground "brightred" weight bold))))
+ '(compilation-warning ((t (:foreground "brightyellow" weight bold))))
  '(compilation-info  ((t (:foreground "color-46" :weight bold))))
  '(compilation-mode-line-exit ((t (:foreground "color-46"))))
 
