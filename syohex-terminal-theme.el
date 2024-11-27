@@ -98,14 +98,16 @@
  '(flymake-warning-echo ((t (:foreground "brightyellow"))))
 
  ;; flyspell
- '(flyspell-duplicate ((t (:foreground "color-226" :underline t weight bold))))
+ '(flyspell-duplicate ((t (:foreground "color-226" :underline t :weight bold))))
  '(flyspell-incorrect ((t (:foreground "color-197" :underline t :weight bold))))
 
  ;; compile
- '(compilation-error ((t (:foreground "brightred" weight bold))))
- '(compilation-warning ((t (:foreground "brightyellow" weight bold))))
+ '(compilation-error ((t (:foreground "brightred" :weight bold))))
+ '(compilation-warning ((t (:foreground "brightyellow" :weight bold))))
  '(compilation-info  ((t (:foreground "color-46" :weight bold))))
- '(compilation-mode-line-exit ((t (:foreground "color-46"))))
+ '(compilation-mode-line-exit ((t (:foreground "color-46" :weight bold))))
+ '(compilation-mode-line-fail ((t (:foreground "brightred" :weight bold))))
+ '(compilation-mode-line-fail ((t (:foreground "brightyellow" :weight bold))))
 
  ;; diff-mode
  '(diff-added ((t (:background unspecified :foreground "green" :weight normal))))
