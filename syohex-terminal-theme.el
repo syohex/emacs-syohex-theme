@@ -53,6 +53,7 @@
  '(font-lock-regexp-grouping-construct ((t (:foreground "color-190"))))
  '(eldoc-highlight-function-argument ((t (:foreground "color-82" :weight extra-bold))))
  '(show-paren-match ((t (:foreground unspecified :background unspecified :underline t :weight bold))))
+ '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
 
  '(anzu2-mode-line ((t (:foreground "color-226" :weight extra-bold))))
  '(mozc-cand-echo-area-candidate-face ((t (:foreground "color-184"))))
