@@ -54,6 +54,8 @@
  '(eldoc-highlight-function-argument ((t (:foreground "color-82" :weight extra-bold))))
  '(show-paren-match ((t (:foreground unspecified :background unspecified :underline t :weight bold))))
  '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
+ '(line-number ((t (:foreground "color-241"))))
+ '(line-number-current-line ((t (:foreground "yellow"))))
 
  '(anzu2-mode-line ((t (:foreground "color-226" :weight extra-bold))))
  '(mozc-cand-echo-area-candidate-face ((t (:foreground "color-184"))))
