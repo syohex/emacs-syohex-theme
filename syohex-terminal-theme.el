@@ -109,8 +109,7 @@
  '(compilation-warning ((t (:foreground "brightyellow" :weight bold))))
  '(compilation-info  ((t (:foreground "color-46" :weight bold))))
  '(compilation-mode-line-exit ((t (:foreground "color-46" :weight bold))))
- '(compilation-mode-line-fail ((t (:foreground "brightred" :weight bold))))
- '(compilation-mode-line-fail ((t (:foreground "brightyellow" :weight bold))))
+ '(compilation-mode-line-fail ((t (:foreground "color-220" :weight bold))))
 
  ;; diff-mode
  '(diff-added ((t (:background unspecified :foreground "green" :weight normal))))
