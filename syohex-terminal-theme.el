@@ -112,7 +112,7 @@
  '(compilation-mode-line-fail ((t (:foreground "color-220" :weight bold))))
 
  ;; diff-mode
- '(diff-added ((t (:background unspecified :foreground "green" :weight normal))))
+ '(diff-added ((t (:background unspecified :foreground "brightgreen" :weight normal))))
  '(diff-removed ((t (:background unspecified :foreground "brightred" :weight normal))))
  '(diff-header ((t (:background "color-240" :weight extra-bold))))
  '(diff-file-header ((t (:background "color-240" :weight bold))))
