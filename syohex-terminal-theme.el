@@ -40,6 +40,7 @@
  '(font-lock-type-face ((t (:foreground "color-83"))))
  '(font-lock-function-name-face ((t (:foreground "color-81"))))
  '(font-lock-property-name-face ((t (:foreground "color-123"))))
+ '(highlight ((t (:foreground "black" :background "brightgreen"))))
  '(minibuffer-prompt ((t (:foreground "color-46"))))
  '(shadow ((t (:foreground "color-249"))))
  '(link ((t (:foreground "color-39"))))
