@@ -51,19 +51,9 @@
  '(font-lock-variable-name-face ((t (:foreground "LightGoldenrod"))))
  '(font-lock-warning-face ((t (:weight bold :foreground "Pink"))))
  '(minibuffer-prompt ((t (:foreground "cyan"))))
-
  '(completions-annotations ((t (:underline t))))
  '(completions-common-part ((t (:foreground "white" :background "black"))))
  '(completions-first-difference ((t (:weight bold))))
- '(dired-directory ((t (:foreground "LightSkyBlue"))))
- '(dired-flagged ((t (:weight bold :foreground "Pink"))))
- '(dired-header ((t (:foreground "PaleGreen"))))
- '(dired-ignored ((t (:foreground "grey70"))))
- '(dired-mark ((t (:foreground "Aquamarine"))))
- '(dired-marked ((t (:weight bold :foreground "DarkOrange"))))
- '(dired-perm-write ((t (:foreground "chocolate1"))))
- '(dired-symlink ((t (:foreground "Cyan1"))))
- '(dired-warning ((t (:foreground "Pink" :weight bold))))
  '(error ((t (:foreground "pink" :weight bold))))
  '(escape-glyph ((t (:foreground "cyan"))))
  '(file-name-shadow ((t (:foreground "grey70"))))
@@ -81,16 +71,6 @@
  '(link-visited ((t (:underline t :foreground "violet"))))
  '(match ((t (:background "RoyalBlue3"))))
  '(menu ((t (nil))))
-
- '(mode-line ((t (:background "#333333" :foreground "#cccccd"))))
- '(mode-line-buffer-id ((t (:weight bold :foreground "orange"))))
- '(mode-line-emphasis ((t (:weight bold))))
- '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
-                                              :style released-button)))))
- '(mode-line-inactive ((t (:background "grey30" :foreground "grey80"
-                                       :box (:line-width -1 :style released-button)
-                                       :weight light))))
-
  '(mouse ((t (nil))))
  '(next-error ((t (:background "blue3"))))
  '(nobreak-space ((t (:foreground "cyan" :underline t))))
@@ -111,16 +91,34 @@
  '(widget-documentation ((t (:foreground "lime green"))))
  '(widget-field ((t (:background "dim gray"))))
  '(widget-inactive ((t (:foreground "grey70"))))
+ '(show-paren-match ((t (:foreground unspecified :underline "#ffff00" :weight extra-bold))))
+ '(eldoc-highlight-function-argument ((t (:foreground "green" :underline t :weight bold))))
+
+ ;; dired
+ '(dired-directory ((t (:foreground "LightSkyBlue"))))
+ '(dired-flagged ((t (:weight bold :foreground "Pink"))))
+ '(dired-header ((t (:foreground "PaleGreen"))))
+ '(dired-ignored ((t (:foreground "grey70"))))
+ '(dired-mark ((t (:foreground "Aquamarine"))))
+ '(dired-marked ((t (:weight bold :foreground "DarkOrange"))))
+ '(dired-perm-write ((t (:foreground "chocolate1"))))
+ '(dired-symlink ((t (:foreground "Cyan1"))))
+ '(dired-warning ((t (:foreground "Pink" :weight bold))))
+
+ ;; mode-line
+ '(mode-line ((t (:background "#333333" :foreground "#cccccd"))))
+ '(mode-line-buffer-id ((t (:weight bold :foreground "orange"))))
+ '(mode-line-emphasis ((t (:weight bold))))
+ '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
+                                              :style released-button)))))
+ '(mode-line-inactive ((t (:background "grey30" :foreground "grey80"
+                                       :box (:line-width -1 :style released-button)
+                                       :weight light))))
 
  '(which-func ((t (:foreground "chartreuse1" :weight bold))))
  '(comint-highlight-input ((t (:foreground "grey80" :weight semi-bold))))
 
- '(flycheck-info ((t (:underline (:style wave :color "green")))))
- '(flycheck-error ((t (:foreground "yellow" :background "red" :weight bold))))
- '(flycheck-warning ((t (:foreground unspecified :background unspecified :underline "darkorange"
-                                     :weight bold))))
- '(flycheck-error-list-highlight ((t (:background "grey15"))))
-
+ ;; diff-mode
  '(diff-added ((t (:background unspecified :foreground "green" :weight normal))))
  '(diff-removed ((t (:background unspecified :foreground "firebrick1" :weight normal))))
  '(diff-file-header ((t (:background unspecified :weight extra-bold))))
@@ -131,69 +129,24 @@
  '(diff-hunk-header ((t (:foreground "turquoise" :weight extra-bold :underline t))))
  '(diff-indicator-removed ((t (:background unspecified :foreground "firebrick1" :weight normal))))
 
- '(helm-gtags-file ((t (:foreground "aquamarine1"))))
- '(helm-gtags-lineno ((t (:foreground "IndianRed1" :underline unspecified))))
-
+ ;; cperl
  '(cperl-array-face ((t (:background unspecified :foreground "yellow" :weight normal))))
  '(cperl-hash-face ((t (:foreground "DarkOliveGreen3" :background unspecified :weight normal))))
 
- '(rust-string-interpolation ((t (:foreground "SkyBlue1"))))
- '(tuareg-font-lock-governing-face ((t (:foreground "cyan"))))
- '(tuareg-font-lock-interactive-output-face ((t (:foreground "yellow"))))
- '(tuareg-font-lock-constructor-face ((t (:foreground "gold1" :weight bold))))
- '(tuareg-font-lock-operator-face ((t (:foreground "color-219"))))
-
- '(show-paren-match ((t (:foreground unspecified :underline "#ffff00" :weight extra-bold))))
-
- '(org-block ((t (:foreground "green"))))
- '(org-tag ((t (:foreground "GreenYellow"))))
- '(org-checkbox ((t (:foreground "LawnGreen" :weight bold))))
- '(org-warning ((t (:foreground "hotpink" :weight bold))))
- '(org-level-1 ((t (:foreground "hotpink" :weight bold))))
- '(org-level-2 ((t (:foreground "yellow" :weight semi-bold))))
- '(org-level-3 ((t (:foreground "LightGreen" :weight semi-bold))))
- '(org-level-4 ((t (:foreground "grey80"))))
- '(org-mode-line-clock ((t :foreground "#cccccd" :weight semi-bold)))
- '(org-priority ((t :foreground "orange" :weight normal)))
-
+ ;; compile-mode
  '(compilation-error ((t (:underline unspecified))))
  '(compilation-line-number ((t (:underline t))))
  '(compilation-mode-line-exit ((t (:foreground "SpringGreen1" :weight semi-bold))))
  '(compilation-mode-line-fail ((t (:foreground "IndianRed1" :weight semi-bold))))
 
+ ;; eshell
  '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
 
- '(eldoc-highlight-function-argument ((t (:foreground "green" :underline t :weight bold))))
- '(anzu2-mode-line ((t (:foreground "yellow" :weight bold))))
-
- '(git-gutter2-deleted ((t (:background "red"))))
- '(git-gutter2-modified ((t (:background "magenta"))))
-
- '(git-rebase-hash ((t (:foreground "yellow"))))
-
- '(helm-source-header ((t (:background "RoyalBlue4" :weight semi-bold :family unspecified :height 1.0))))
- '(helm-ff-file ((t (:foreground "white" :background unspecified))))
- '(helm-ff-directory ((t (:foreground "cyan" :background unspecified :underline t))))
- '(helm-grep-file ((t (:foreground "aquamarine1" :underline unspecified))))
- '(helm-grep-lineno ((t (:foreground "IndianRed1"))))
- '(helm-moccur-buffer ((t (:foreground "aquamarine1" :underline unspecified))))
- '(helm-descbinds-binding ((t (:foreground "white"))))
-
- '(popup-scroll-bar-foreground-face ((t (:background "DarkOrange"))))
-
- '(company-tooltip ((t (:foreground "black" :background "lightgrey"))))
- '(company-tooltip-common ((t (:foreground "black" :background "lightgrey"))))
- '(company-tooltip-common-selection ((t (:foreground "white" :background "steelblue"))))
- '(company-tooltip-selection ((t (:foreground "black" :background "steelblue"))))
- '(company-preview-common ((t (:background unspecified :foreground "lightgrey" :underline t))))
- '(company-scrollbar-fg ((t (:background "orange"))))
- '(company-scrollbar-bg ((t (:background "gray40"))))
- '(company-template-field ((t (:background unspecified :foreground "yellow"))))
- '(company-tooltip-annotation ((t (:background unspecified :foreground "dimgray"))))
-
+ ;; flyspell
  '(flyspell-duplicate ((t (:foreground "white" :background "orange" :underline unspecified weight bold))))
  '(flyspell-incorrect ((t (:foreground "white" :background "red" :underline unspecified :weight bold))))
 
+ ;; vc
  '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
  '(vc-locally-added-state ((t :foreground "GreenYellow" :weight bold))))
 

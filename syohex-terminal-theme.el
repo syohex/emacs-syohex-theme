@@ -58,9 +58,6 @@
  '(line-number ((t (:foreground "color-241"))))
  '(line-number-current-line ((t (:foreground "yellow"))))
 
- ;; anzu
- '(anzu2-mode-line ((t (:foreground "color-226" :weight extra-bold))))
-
  ;; mozc
  '(mozc-cand-echo-area-candidate-face ((t (:foreground "color-184"))))
 
@@ -125,6 +122,11 @@
  '(diff-refine-changed ((t (:background unspecified))))
  '(diff-hunk-header ((t (:foreground  "color-208" :weight extra-bold :underline t))))
  '(diff-indicator-removed ((t (:background unspecified :foreground "brightred" :weight normal)))))
+
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'syohex-terminal)
 
