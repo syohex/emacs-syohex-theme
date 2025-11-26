@@ -58,15 +58,18 @@
  '(line-number ((t (:foreground "color-241"))))
  '(line-number-current-line ((t (:foreground "yellow"))))
 
+ ;; anzu
  '(anzu2-mode-line ((t (:foreground "color-226" :weight extra-bold))))
+
+ ;; mozc
  '(mozc-cand-echo-area-candidate-face ((t (:foreground "color-184"))))
 
- '(rust-string-interpolation ((t (:foreground "color-81" :slant unspecified))))
- '(tuareg-font-lock-governing-face ((t (:foreground "cyan"))))
- '(tuareg-font-lock-interactive-output-face ((t (:foreground "yellow"))))
- '(tuareg-font-lock-constructor-face ((t (:foreground "color-220" :weight bold))))
- '(tuareg-font-lock-operator-face ((t (:foreground "color-219"))))
+ ;; markdown
  '(markdown-line-break-face ((t (:underline unspecified))))
+
+ ;; package
+ '(package-mark-delete-line ((t (:foreground "black"))))
+ '(package-mark-install-line ((t (:foreground "black"))))
 
  ;; eglot
  '(eglot-mode-line ((t (:foreground "color-166"))))
