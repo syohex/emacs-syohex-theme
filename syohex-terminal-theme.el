@@ -58,6 +58,8 @@
  '(line-number ((t (:foreground "color-241"))))
  '(line-number-current-line ((t (:foreground "yellow"))))
  '(match ((t (:foreground "color-198" :background nil :weight bold :underlint t))))
+ '(pulse-highlight-face ((t (:foreground "color-235" :background "color-228"))))
+ '(pulse-highlight-start-face ((t (:foreground "color-235" :background "color-228"))))
 
  ;; mozc
  '(mozc-cand-echo-area-candidate-face ((t (:foreground "color-184"))))
