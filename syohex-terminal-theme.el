@@ -57,6 +57,7 @@
  '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
  '(line-number ((t (:foreground "color-241"))))
  '(line-number-current-line ((t (:foreground "yellow"))))
+ '(match ((t (:foreground "color-198" :background nil :weight bold :underlint t))))
 
  ;; mozc
  '(mozc-cand-echo-area-candidate-face ((t (:foreground "color-184"))))
@@ -71,12 +72,6 @@
  ;; eglot
  '(eglot-mode-line ((t (:foreground "color-166"))))
  '(eglot-inlay-hint-face ((t (:foreground "color-83" :weight unspecified :italic t))))
-
- ;; helm
- '(helm-match ((t (:foreground "color-198"))))
- '(helm-grep-file ((t (:foreground "color-120" :underline unspecified))))
- '(helm-selection ((t (:foreground "black" :background "color-204"))))
- '(helm-descbinds-binding ((t (:foreground "white"))))
 
  ;; company
  '(company-tooltip ((t (:foreground "color-231" :background "color-240"))))
