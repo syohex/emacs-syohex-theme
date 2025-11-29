@@ -68,8 +68,8 @@
  '(markdown-line-break-face ((t (:underline unspecified))))
 
  ;; package
- '(package-mark-delete-line ((t (:foreground "black"))))
- '(package-mark-install-line ((t (:foreground "black"))))
+ '(package-mark-delete-line ((t (:foreground "red"))))
+ '(package-mark-install-line ((t (:foreground "green"))))
 
  ;; eglot
  '(eglot-mode-line ((t (:foreground "color-166"))))
