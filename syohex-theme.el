@@ -115,7 +115,7 @@
                                        :box (:line-width -1 :style released-button)
                                        :weight light))))
 
- '(which-func ((t (:foreground "chartreuse1" :weight bold))))
+ '(which-func ((t (:foreground "MediumPurple1" :weight bold))))
  '(comint-highlight-input ((t (:foreground "grey80" :weight semi-bold))))
 
  ;; diff-mode
