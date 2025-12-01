@@ -51,9 +51,6 @@
  '(font-lock-variable-name-face ((t (:foreground "LightGoldenrod"))))
  '(font-lock-warning-face ((t (:weight bold :foreground "Pink"))))
  '(minibuffer-prompt ((t (:foreground "cyan"))))
- '(completions-annotations ((t (:underline t))))
- '(completions-common-part ((t (:foreground "white" :background "black"))))
- '(completions-first-difference ((t (:weight bold))))
  '(error ((t (:foreground "pink" :weight bold))))
  '(escape-glyph ((t (:foreground "cyan"))))
  '(file-name-shadow ((t (:foreground "grey70"))))
@@ -93,6 +90,12 @@
  '(widget-inactive ((t (:foreground "grey70"))))
  '(show-paren-match ((t (:foreground unspecified :underline "#ffff00" :weight extra-bold))))
  '(eldoc-highlight-function-argument ((t (:foreground "green" :underline t :weight bold))))
+
+ ;; completions
+ '(completions-annotations ((t (:underline t))))
+ '(completions-common-part ((t (:foreground "red1"))))
+ '(completions-first-difference ((t (:foreground "yellow1" :underline t))))
+ '(icomplete-selected-match ((t (:foreground "LawnGreen" :weight bold :underlint t))))
 
  ;; dired
  '(dired-directory ((t (:foreground "LightSkyBlue"))))

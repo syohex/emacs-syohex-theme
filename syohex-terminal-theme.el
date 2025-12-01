@@ -44,7 +44,6 @@
  '(minibuffer-prompt ((t (:foreground "color-46"))))
  '(shadow ((t (:foreground "color-249"))))
  '(link ((t (:foreground "color-39"))))
- '(completions-common-part ((t (:foreground "brightred"))))
  '(region ((t (:foreground "color-240" :background "color-159"))))
  '(mode-line ((t (:foreground "color-248" :background "color-238"))))
  '(mode-line-inactive ((t (:foreground "color-235" :background "color-242"))))
@@ -57,9 +56,14 @@
  '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
  '(line-number ((t (:foreground "color-241"))))
  '(line-number-current-line ((t (:foreground "yellow"))))
- '(match ((t (:foreground "color-198" :background nil :weight bold :underlint t))))
+ '(match ((t (:foreground "color-198" :background nil :weight bold :underline t))))
  '(pulse-highlight-face ((t (:foreground "color-235" :background "color-228"))))
  '(pulse-highlight-start-face ((t (:foreground "color-235" :background "color-228"))))
+
+ ;; completions
+ '(completions-common-part ((t (:foreground "color-196"))))
+ '(completions-first-difference ((t (:foreground "color-226" :underline t))))
+ '(icomplete-selected-match ((t (:foreground "color-154" :weight bold :underline t))))
 
  ;; mozc
  '(mozc-cand-echo-area-candidate-face ((t (:foreground "color-184"))))
