@@ -110,7 +110,7 @@
 
  ;; mode-line
  '(mode-line ((t (:background "#333333" :foreground "#cccccd"))))
- '(mode-line-buffer-id ((t (:weight bold :foreground "orange"))))
+ '(mode-line-buffer-id ((t (:weight bold :foreground "gray"))))
  '(mode-line-emphasis ((t (:weight bold))))
  '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
                                               :style released-button)))))
