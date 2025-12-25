@@ -65,6 +65,12 @@
  '(completions-first-difference ((t (:foreground "color-226" :underline t))))
  '(icomplete-selected-match ((t (:foreground "color-154" :weight bold :underline t))))
 
+ ;; ansi-color
+ '(ansi-color-blue ((t (:foreground "color-80"))))
+ '(ansi-color-bright-blue ((t (:foreground "color-45"))))
+ '(ansi-color-black ((t (:foreground "color-237"))))
+ '(ansi-color-bright-black ((t (:foreground "color-242"))))
+
  ;; mozc
  '(mozc-cand-echo-area-candidate-face ((t (:foreground "color-184"))))
 
