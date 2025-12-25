@@ -93,9 +93,9 @@
 
  ;; completions
  '(completions-annotations ((t (:underline t))))
- '(completions-common-part ((t (:foreground "red1"))))
- '(completions-first-difference ((t (:foreground "yellow1" :underline t))))
- '(icomplete-selected-match ((t (:foreground "LawnGreen" :weight bold :underlint t))))
+ '(completions-common-part ((t (:foreground "OliveDrab1" :weight bold))))
+ '(completions-first-difference ((t (:foreground "orange" :weight bold :underline t))))
+ '(icomplete-selected-match ((t (:weight bold :underlint t))))
 
  ;; dired
  '(dired-directory ((t (:foreground "LightSkyBlue"))))

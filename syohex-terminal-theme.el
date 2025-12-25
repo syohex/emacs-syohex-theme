@@ -61,9 +61,9 @@
  '(pulse-highlight-start-face ((t (:foreground "color-235" :background "color-228"))))
 
  ;; completions
- '(completions-common-part ((t (:foreground "color-196"))))
- '(completions-first-difference ((t (:foreground "color-226" :underline t))))
- '(icomplete-selected-match ((t (:foreground "color-154" :weight bold :underline t))))
+ '(completions-common-part ((t (:foreground "color-190" :weight bold))))
+ '(completions-first-difference ((t (:foreground "color-202" :weight bold :underline t))))
+ '(icomplete-selected-match ((t (:weight bold :underline t))))
 
  ;; ansi-color
  '(ansi-color-blue ((t (:foreground "color-80"))))
