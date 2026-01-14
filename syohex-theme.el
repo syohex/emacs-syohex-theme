@@ -1,6 +1,6 @@
 ;;; syohex-theme.el --- Syohex Emacs theme -*- lexical-binding: t -*-
 
-;; Copyright (C) 2025 by Shohei YOSHIDA
+;; Copyright (C) 2026 by Shohei YOSHIDA
 
 ;; Author: Shohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-syohex-theme
@@ -34,7 +34,7 @@
  '(button ((t (:underline t :foreground "cyan1"))))
  '(default ((t (:background "black" :foreground "white"))))
  '(cursor ((t (:foreground "white" :background "chartreuse2"))))
- '(region ((t (:background "blue3"))))
+ '(region ((t (:foreground "gray30" :background "lightskyblue1"))))
  '(font-lock-builtin-face ((t (:foreground "LightSteelBlue"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "chocolate1"))))
  '(font-lock-comment-face ((t (:foreground "chocolate1"))))
@@ -106,6 +106,8 @@
  '(ansi-color-bright-black ((t (:foreground "gray60"))))
 
  ;; flymake
+ '(flymake-error ((t (:foreground "violetred1" :underline t))))
+ '(flymake-warning ((t (:foreground "ffff00" :underline t))))
  '(flymake-error-echo ((t (:foreground "maroon1"))))
  '(flymake-warning-echo ((t (:foreground "brightyellow"))))
 
@@ -121,7 +123,7 @@
  '(dired-warning ((t (:foreground "Pink" :weight bold))))
 
  ;; mode-line
- '(mode-line ((t (:background "#333333" :foreground "#cccccd"))))
+ '(mode-line ((t (:background "#404040" :foreground "#a5a5a5"))))
  '(mode-line-buffer-id ((t (:weight bold :foreground "gray"))))
  '(mode-line-emphasis ((t (:weight bold))))
  '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
