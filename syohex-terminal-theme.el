@@ -1,6 +1,6 @@
 ;;; syohex-terminal-theme.el --- Syohex Emacs theme for terminal -*- lexical-binding: t -*-
 
-;; Copyright (C) 2023 by Shohei YOSHIDA
+;; Copyright (C) 2025 by Shohei YOSHIDA
 
 ;; Author: Shohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-syohex-theme

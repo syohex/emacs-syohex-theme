@@ -1,6 +1,6 @@
 ;;; syohex-theme.el --- Syohex Emacs theme -*- lexical-binding: t -*-
 
-;; Copyright (C) 2020 by Shohei YOSHIDA
+;; Copyright (C) 2025 by Shohei YOSHIDA
 
 ;; Author: Shohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-syohex-theme
@@ -96,6 +96,18 @@
  '(completions-common-part ((t (:foreground "OliveDrab1" :weight bold))))
  '(completions-first-difference ((t (:foreground "orange" :weight bold :underline t))))
  '(icomplete-selected-match ((t (:weight bold :underline t))))
+
+ ;; ansi-color
+ '(ansi-color-red ((t (:foreground "deeppink2"))))
+ '(ansi-color-bright-red ((t (:foreground "deeppink1"))))
+ '(ansi-color-blue ((t (:foreground "cornflowerblue"))))
+ '(ansi-color-bright-blue ((t (:foreground "deepskyblue"))))
+ '(ansi-color-black ((t (:foreground "gray50"))))
+ '(ansi-color-bright-black ((t (:foreground "gray60"))))
+
+ ;; flymake
+ '(flymake-error-echo ((t (:foreground "maroon1"))))
+ '(flymake-warning-echo ((t (:foreground "brightyellow"))))
 
  ;; dired
  '(dired-directory ((t (:foreground "LightSkyBlue"))))
