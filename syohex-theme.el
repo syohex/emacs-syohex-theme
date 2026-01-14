@@ -150,6 +150,12 @@
  '(cperl-array-face ((t (:background unspecified :foreground "yellow" :weight normal))))
  '(cperl-hash-face ((t (:foreground "DarkOliveGreen3" :background unspecified :weight normal))))
 
+ ;; ocaml
+ '(tuareg-font-lock-governing-face ((t (:foreground "cyan"))))
+ '(tuareg-font-lock-interactive-output-face ((t (:foreground "yellow"))))
+ '(tuareg-font-lock-constructor-face ((t (:foreground "gold1" :weight bold))))
+ '(tuareg-font-lock-operator-face ((t (:foreground "violet"))))
+
  ;; compile-mode
  '(compilation-error ((t (:underline unspecified))))
  '(compilation-line-number ((t (:underline t))))
