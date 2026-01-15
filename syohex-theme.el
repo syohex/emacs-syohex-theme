@@ -44,6 +44,7 @@
  '(font-lock-keyword-face ((t (:foreground "Cyan1"))))
  '(font-lock-negation-char-face ((t (nil))))
  '(font-lock-preprocessor-face ((t (:foreground "LightSteelBlue"))))
+ '(font-lock-property-name-face ((t (:foreground "turquoise1"))))
  '(font-lock-regexp-grouping-backslash ((t (:foreground "#ff1493":weight bold))))
  '(font-lock-regexp-grouping-construct ((t (:foreground "#ff8c00" :weight bold))))
  '(font-lock-string-face ((t (:foreground "LightSalmon"))))
