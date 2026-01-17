@@ -111,6 +111,7 @@
  '(flymake-warning ((t (:foreground "ffff00" :underline t))))
  '(flymake-error-echo ((t (:foreground "maroon1"))))
  '(flymake-warning-echo ((t (:foreground "brightyellow"))))
+ '(flymake-error-fringe ((t (:foreground "#ff4d94"))))
 
  ;; dired
  '(dired-directory ((t (:foreground "LightSkyBlue"))))
@@ -164,6 +165,7 @@
  '(eglot-semantic-modifier ((t :foreground "#f0b3ff")))
  '(eglot-semantic-macro ((t :foreground "#99ffcc")))
  '(eglot-semantic-decorator ((t :foreground "#99ff66")))
+ '(eglot-semantic-parameter ((t :foreground "#ccebff")))
 
  ;; cperl
  '(cperl-array-face ((t (:background unspecified :foreground "yellow" :weight normal))))
