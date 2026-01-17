@@ -43,7 +43,7 @@
  '(font-lock-function-name-face ((t (:foreground "LightSkyBlue"))))
  '(font-lock-keyword-face ((t (:foreground "Cyan1"))))
  '(font-lock-negation-char-face ((t (nil))))
- '(font-lock-preprocessor-face ((t (:foreground "LightSteelBlue"))))
+ '(font-lock-preprocessor-face ((t (:foreground "#ffb3cc"))))
  '(font-lock-property-name-face ((t (:foreground "turquoise1"))))
  '(font-lock-regexp-grouping-backslash ((t (:foreground "#ff1493":weight bold))))
  '(font-lock-regexp-grouping-construct ((t (:foreground "#ff8c00" :weight bold))))
@@ -146,6 +146,24 @@
  '(diff-header ((t (:background unspecified :weight extra-bold))))
  '(diff-hunk-header ((t (:foreground "turquoise" :weight extra-bold :underline t))))
  '(diff-indicator-removed ((t (:background unspecified :foreground "firebrick1" :weight normal))))
+
+ ;; eglot
+ '(eglot-semantic-defaultLibrary ((t (:foreground unspecified))))
+ '(eglot-semantic-struct ((t (:foreground "#ffe066"))))
+ '(eglot-semantic-namespace ((t (:foreground "#99ff99"))))
+ '(eglot-semantic-definition ((t (:foreground unspecified :underline unspecified))))
+ '(eglot-semantic-declaration ((t (:foreground unspecified :underline unspecified))))
+ '(eglot-semantic-function ((t (:foreground "#b3b3ff"))))
+ '(eglot-semantic-variable ((t (:foreground unspecified))))
+ '(eglot-semantic-operator ((t (:foreground unspecified))))
+ '(eglot-semantic-static ((t (:foreground unspecified))))
+ '(eglot-semantic-property ((t (:foreground unspecified :underline unspecified))))
+ '(eglot-semantic-number ((t (:foreground unspecified))))
+ '(eglot-semantic-enum ((t :foreground "#00cc44")))
+ '(eglot-semantic-abstract ((t :foreground "#ffeb99")))
+ '(eglot-semantic-modifier ((t :foreground "#f0b3ff")))
+ '(eglot-semantic-macro ((t :foreground "#99ffcc")))
+ '(eglot-semantic-decorator ((t :foreground "#99ff66")))
 
  ;; cperl
  '(cperl-array-face ((t (:background unspecified :foreground "yellow" :weight normal))))
