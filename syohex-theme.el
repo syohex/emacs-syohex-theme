@@ -51,6 +51,7 @@
  '(font-lock-type-face ((t (:foreground "PaleGreen"))))
  '(font-lock-variable-name-face ((t (:foreground "LightGoldenrod"))))
  '(font-lock-warning-face ((t (:weight bold :foreground "Pink"))))
+ '(font-lock-escape-face ((t (:foreground "#ffff66"))))
  '(minibuffer-prompt ((t (:foreground "cyan"))))
  '(error ((t (:foreground "pink" :weight bold))))
  '(escape-glyph ((t (:foreground "cyan"))))
