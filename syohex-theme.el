@@ -188,8 +188,8 @@
  '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
 
  ;; flyspell
- '(flyspell-duplicate ((t (:foreground "white" :background "orange" :underline unspecified weight bold))))
- '(flyspell-incorrect ((t (:foreground "white" :background "red" :underline unspecified :weight bold))))
+ '(flyspell-duplicate ((t (:foreground "#555555" :background "#ffcc00" :underline unspecified :weight bold))))
+ '(flyspell-incorrect ((t (:foreground "#cccccc" :background "#ff1a1a" :underline unspecified :weight bold))))
 
  ;; vc
  '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
