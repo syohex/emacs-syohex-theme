@@ -47,7 +47,7 @@
  '(font-lock-property-name-face ((t (:foreground "#b3f0ff"))))
  '(font-lock-regexp-grouping-backslash ((t (:foreground "#ff1493":weight bold))))
  '(font-lock-regexp-grouping-construct ((t (:foreground "#ff8c00" :weight bold))))
- '(font-lock-string-face ((t (:foreground "lightsalmon2"))))
+ '(font-lock-string-face ((t (:foreground "lightsalmon"))))
  '(font-lock-type-face ((t (:foreground "#00ffbf"))))
  '(font-lock-variable-name-face ((t (:foreground "#b3f0ff"))))
  '(font-lock-warning-face ((t (:weight bold :foreground "Pink"))))
