@@ -191,7 +191,7 @@
 
  ;; flyspell
  '(flyspell-duplicate ((t (:foreground "#555555" :background "#ffcc00" :underline unspecified :weight bold))))
- '(flyspell-incorrect ((t (:foreground "#cccccc" :background "#ff1a1a" :underline unspecified :weight bold))))
+ '(flyspell-incorrect ((t (:foreground "#eeeeee" :background "#e60000" :underline unspecified :weight bold))))
 
  ;; vc
  '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
