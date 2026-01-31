@@ -195,7 +195,8 @@
 
  ;; vc
  '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
- '(vc-locally-added-state ((t :foreground "GreenYellow" :weight bold))))
+ '(vc-locally-added-state ((t :foreground "GreenYellow" :weight bold)))
+ '(log-edit-headers-separator ((t :background unspecified))))
 
 ;;;###autoload
 (when load-file-name
