@@ -187,7 +187,7 @@
  '(compilation-mode-line-fail ((t (:foreground "IndianRed1" :weight semi-bold))))
 
  ;; eshell
- '(eshell-prompt ((t (:foreground "yellow" :weight bold))))
+ '(eshell-prompt ((t (:foreground "palegreen" :weight bold))))
 
  ;; flyspell
  '(flyspell-duplicate ((t (:foreground "#555555" :background "#ffcc00" :underline unspecified :weight bold))))
