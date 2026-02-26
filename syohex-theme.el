@@ -139,8 +139,8 @@
  '(comint-highlight-input ((t (:foreground "grey80" :weight semi-bold))))
 
  ;; diff-mode
- '(diff-added ((t (:background unspecified :foreground "green" :weight normal))))
- '(diff-removed ((t (:background unspecified :foreground "firebrick1" :weight normal))))
+ '(diff-added ((t (:background "#335533" :extend t))))
+ '(diff-removed ((t (:background "#553333" :extend t))))
  '(diff-file-header ((t (:background unspecified :weight extra-bold))))
  '(diff-refine-added ((t (:background unspecified :underline "green"))))
  '(diff-refine-removed ((t (:background unspecified :underline "red"))))
