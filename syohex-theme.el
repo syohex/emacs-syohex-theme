@@ -196,6 +196,8 @@
  ;; company
  '(company-tooltip ((t (:foreground "#363636" :background "#A0A0A0"))))
  '(company-tooltip-common ((t (:foreground "firebrick" :background unspecified))))
+ '(company-tooltip-common-selection ((t (:foreground "firebrick1" :background unspecified :weight bold))))
+ '(company-tooltip-selection ((t :foreground unspecified :background "#c0c0c0")))
 
  ;; vc
  '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
