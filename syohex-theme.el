@@ -193,6 +193,10 @@
  '(flyspell-duplicate ((t (:foreground "#555555" :background "#ffcc00" :underline unspecified :weight bold))))
  '(flyspell-incorrect ((t (:foreground "#eeeeee" :background "#e60000" :underline unspecified :weight bold))))
 
+ ;; company
+ '(company-tooltip ((t (:foreground "#363636" :background "#A0A0A0"))))
+ '(company-tooltip-common ((t (:foreground "firebrick" :background unspecified))))
+
  ;; vc
  '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
  '(vc-locally-added-state ((t :foreground "GreenYellow" :weight bold)))
