@@ -32,7 +32,7 @@
 (custom-theme-set-faces
  'syohex
  '(button ((t (:underline t :foreground "cyan1"))))
- '(default ((t (:background "#343434" :foreground "white"))))
+ '(default ((t (:background "black" :foreground "white"))))
  '(cursor ((t (:foreground "white" :background "chartreuse2"))))
  '(region ((t (:foreground "gray30" :background "lightskyblue1"))))
  '(font-lock-builtin-face ((t (:foreground "#ffdd99"))))
