@@ -194,10 +194,10 @@
  '(flyspell-incorrect ((t (:foreground "#eeeeee" :background "#e60000" :underline unspecified :weight bold))))
 
  ;; company
- '(company-tooltip ((t (:foreground "#363636" :background "#A0A0A0"))))
- '(company-tooltip-common ((t (:foreground "firebrick" :background unspecified))))
- '(company-tooltip-common-selection ((t (:foreground "firebrick1" :background unspecified :weight bold))))
- '(company-tooltip-selection ((t :foreground unspecified :background "#c0c0c0")))
+ '(company-tooltip ((t (:foreground "#C0C0C0" :background "#363636"))))
+ '(company-tooltip-common ((t (:foreground "#ff003f" :background unspecified))))
+ '(company-tooltip-common-selection ((t (:foreground "#ff005f" :background unspecified :weight bold))))
+ '(company-tooltip-selection ((t :foreground unspecified :background "#666666")))
 
  ;; vc
  '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
