@@ -101,12 +101,16 @@
  '(icomplete-selected-match ((t (:weight bold :underline t))))
 
  ;; ansi-color
- '(ansi-color-red ((t (:foreground "deeppink2"))))
- '(ansi-color-bright-red ((t (:foreground "deeppink1"))))
+ '(ansi-color-red ((t (:foreground "#ff4040"))))
+ '(ansi-color-bright-red ((t (:foreground "#ff0038"))))
  '(ansi-color-blue ((t (:foreground "cornflowerblue"))))
  '(ansi-color-bright-blue ((t (:foreground "deepskyblue"))))
  '(ansi-color-black ((t (:foreground "gray50"))))
  '(ansi-color-bright-black ((t (:foreground "gray60"))))
+ '(ansi-color-magenta ((t (:foreground "#da70d6"))))
+ '(ansi-color-bright-magenta ((t (:foreground "#ff1dce"))))
+ '(ansi-color-green ((t (:foreground "#3cd371"))))
+ '(ansi-color-bright-green ((t (:foreground "#adff2f"))))
 
  ;; flymake
  '(flymake-error ((t (:foreground "violetred1" :underline t))))
