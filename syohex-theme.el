@@ -32,7 +32,7 @@
 (custom-theme-set-faces
  'syohex
  '(button ((t (:underline t :foreground "cyan1"))))
- '(default ((t (:background "black" :foreground "white"))))
+ '(default ((t (:background "#232323" :foreground "white"))))
  '(cursor ((t (:foreground "white" :background "chartreuse2"))))
  '(region ((t (:foreground "gray30" :background "lightskyblue1"))))
  '(font-lock-builtin-face ((t (:foreground "#ffdd99"))))
@@ -61,6 +61,7 @@
  '(header-line ((t (:box (:line-width -1 :style released-button)
                          :background "grey20" :foreground "grey90" :box unspecified))))
  '(help-argument-name ((t (nil))))
+ '(help-key-binding ((t (:foreground "#c8f520" :background unspecified))))
  '(highlight ((t (:background "darkolivegreen"))))
  '(isearch ((t (:background "palevioletred2" :foreground "brown4"))))
  '(isearch-fail ((t (:background "red4"))))
@@ -195,9 +196,11 @@
 
  ;; company
  '(company-tooltip ((t (:foreground "#C0C0C0" :background "#363636"))))
- '(company-tooltip-common ((t (:foreground "#ff003f" :background unspecified))))
- '(company-tooltip-common-selection ((t (:foreground "#ff005f" :background unspecified :weight bold))))
- '(company-tooltip-selection ((t :foreground unspecified :background "#666666")))
+ '(company-tooltip-common ((t (:foreground "#f54d20" :background unspecified))))
+ '(company-tooltip-common-selection ((t (:foreground "#ffd700" :background unspecified :weight normal))))
+ '(company-tooltip-selection ((t (:foreground unspecified :background "#666666"))))
+ '(company-tooltip-annotation ((t (:foreground "#93c572" :background unspecified))))
+ '(company-tooltip-annotation-selection ((t :foreground "#93c572" :background unspecified :weight bold)))
 
  ;; vc
  '(vc-edited-state ((t (:foreground "tomato" :weight bold))))
