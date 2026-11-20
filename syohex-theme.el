@@ -154,6 +154,11 @@
  '(diff-hunk-header ((t (:foreground "turquoise" :weight extra-bold :underline t))))
  '(diff-indicator-removed ((t (:background unspecified :foreground "firebrick1" :weight normal))))
 
+ ;; tab
+ '(tab-bar ((t (:background "#343434"))))
+ '(tab-bar-tab ((t (:background "#454545" :foreground "#ceff00"))))
+ '(tab-bar-tab-inactive ((t (:background "#565656" :foreground "white"))))
+
  ;; eglot
  '(eglot-semantic-defaultLibrary ((t (:foreground unspecified))))
  '(eglot-semantic-struct ((t (:foreground "#ffe066"))))
@@ -174,16 +179,6 @@
  '(eglot-semantic-decorator ((t :foreground "#99ff66")))
  '(eglot-semantic-variable ((t (:foreground "#b3f0ff"))))
  '(eglot-semantic-parameter ((t :foreground "#b3f0ff")))
-
- ;; cperl
- '(cperl-array-face ((t (:background unspecified :foreground "yellow" :weight normal))))
- '(cperl-hash-face ((t (:foreground "DarkOliveGreen3" :background unspecified :weight normal))))
-
- ;; ocaml
- '(tuareg-font-lock-governing-face ((t (:foreground "cyan"))))
- '(tuareg-font-lock-interactive-output-face ((t (:foreground "yellow"))))
- '(tuareg-font-lock-constructor-face ((t (:foreground "gold1" :weight bold))))
- '(tuareg-font-lock-operator-face ((t (:foreground "violet"))))
 
  ;; compile-mode
  '(compilation-error ((t (:underline unspecified))))
